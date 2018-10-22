@@ -9,6 +9,10 @@ import { Img2Page } from '../img2/img2';
 import { Res2Page } from '../res2/res2';
 import { Bio2Page } from '../bio2/bio2';
 import { Lista2Page } from '../lista2/lista2';
+import { Img3Page } from '../img3/img3';
+import { Bio3Page } from '../bio3/bio3';
+import { Res3Page } from '../res3/res3';
+import { Lista3Page } from '../lista3/lista3';
 
 @Component({
   selector: 'page-home',
@@ -25,6 +29,10 @@ export class HomePage {
   res2 = Res2Page;
   bio2 = Bio2Page;
   lista2 = Lista2Page;
+  img3 = Img3Page;
+  bio3 = Bio3Page;
+  res3 = Res3Page;
+  lista3 = Lista3Page;
 
 
   constructor(public navCtrl: NavController) {
@@ -61,6 +69,22 @@ export class HomePage {
 
   Clicklista2(){
     this.navCtrl.push(this.lista2)
+  }
+
+  Clickimg3(){
+    this.navCtrl.push(this.img3)
+  }
+
+  Clickres3(){
+    this.navCtrl.push(this.res3)
+  }
+
+  Clickbio3(){
+    this.navCtrl.push(this.bio3)
+  }
+
+  Clicklista3(){
+    this.navCtrl.push(this.lista3)
   }
 
   
