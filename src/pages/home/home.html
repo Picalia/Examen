@@ -1,14 +1,145 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+     Mis Discos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-card>
+
+
+    <ion-item style = "background-color:antiquewhite">
+      <ion-col item-start>
+        <img (click)= Clickimg() src ="https://i1.wp.com/lomusical.com/wp-content/uploads/2018/09/Banda%20MS%20-%20Con%20Todas%20Las%20Fuerzas%20(2018).jpg?fit=300%2C300&ssl=1">
+      </ion-col>
+      <h2 (click) = Clickbio()>Banda ms</h2>
+      <p (click) = Clicklista()>Con todas las </p>
+      <p (click) = Clicklista()>fuerzas</p>
+      <p>2018</p>
+      <p>
+        <ion-row (click) = Clickres()>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        </ion-row>
+        
+      </p>
+      <p> <ion-icon  name="play"></ion-icon></p>
+     
+    </ion-item>
+  
+    
+  </ion-card>
+
+  <ion-card>
+
+
+      <ion-item style = "background-color:#D3FAD6">
+        <ion-col item-start>
+          <img (click) = Clickimg2() src ="../assets/maluma.jpg">
+        </ion-col>
+        <h2 (click) = Clickbio2()>Maluma</h2>
+        <p  (click) = Clicklista2()>F.A.M.E. </p>
+        <p>2018</p>
+        <p>
+          <ion-row (click) = Clickres2()>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          </ion-row>
+          
+        </p>
+        <p> <ion-icon name="play"></ion-icon></p>
+       
+      </ion-item>
+    
+      
+    </ion-card>
+
+    <ion-card>
+
+
+        <ion-item style = "background-color:#C8C8C8">
+          <ion-col item-start>
+            <img (click) = Clickimg3() src ="https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/a2/b3/db/a2b3db1e-a161-c5fb-6e2c-d86553169cb4/886446841885.jpg/268x0w.jpg">
+          </ion-col>
+          <h2 (click) = Clickbio3()>Carlos Rivera</h2>
+          <p (click) = Clicklista3()>Yo vivo </p>
+          <p>2018</p>
+          <p>
+            <ion-row (click) = Clickres3>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half"></ion-icon>
+            </ion-row>
+            
+          </p>
+          <p> <ion-icon  name="play"></ion-icon></p>
+         
+        </ion-item>
+      
+        
+      </ion-card>
+
+      <ion-card>
+
+
+          <ion-item style = "background-color:#DCF2B0">
+            <ion-col item-start>
+              <img src ="https://2.bp.blogspot.com/-RIA4AaBz6UE/WvXmMquGB-I/AAAAAAAAEcE/yLqijEvKCMg0rU17dxLfiAfAaGQbe1OpQCLcBGAs/s640/Sin%2Bt%25C3%25ADtulo-1.jpg">
+            </ion-col>
+            <h2>Alfredo Olivas</h2>
+            <p>La rueda sigue girando </p>
+            <p>2018</p>
+            <p>
+              <ion-row>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star-half"></ion-icon>
+              </ion-row>
+              
+            </p>
+            <p> <ion-icon name="play"></ion-icon></p>
+           
+          </ion-item>
+        
+          
+        </ion-card>
+        <ion-card>
+
+
+            <ion-item style = "background-color:#DFBBB1">
+              <ion-col item-start>
+                <img (click) = Clickimg4() src ="https://4.bp.blogspot.com/-NdSyKGwE1IY/WaC__0FhXoI/AAAAAAAAAe0/v1zpHJVQVzgyKD_c813JyqKP2aPuD2HhQCLcBGAs/s1600/COVER8FDFDGHDYRT646EFRGT.jpg">
+              </ion-col>
+              <h2 (click) = Clickbio4()>Christian Nodal</h2>
+              <p (click) = Clicklista4() >Me deje llevar </p>
+              <p>2017</p>
+              <p>
+                <ion-row (click) = Clickres4>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                </ion-row>
+                
+              </p>
+              <p> <ion-icon  name="play"></ion-icon></p>
+             
+            </ion-item>
+          
+            
+          </ion-card>
+
 </ion-content>
