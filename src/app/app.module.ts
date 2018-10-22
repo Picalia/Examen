@@ -11,6 +11,10 @@ import { ImgPage } from '../pages/img/img';
 import { BioPage } from '../pages/bio/bio';
 import { ResPage } from '../pages/res/res';
 import { ListaPage } from '../pages/lista/lista';
+import { Img2Page } from '../pages/img2/img2';
+import { Bio2Page } from '../pages/bio2/bio2';
+import { Res2Page } from '../pages/res2/res2';
+import { Lista2Page } from '../pages/lista2/lista2';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { ListaPage } from '../pages/lista/lista';
     ImgPage,
     BioPage,
     ResPage,
-    ListaPage
+    ListaPage,
+    Img2Page,
+    Bio2Page,
+    Res2Page,
+    Lista2Page
     
     
 
@@ -38,6 +46,10 @@ import { ListaPage } from '../pages/lista/lista';
     BioPage,
     ResPage,
     ListaPage,
+    Img2Page,
+    Bio2Page,
+    Res2Page,
+    Lista2Page,
   ],
   providers: [
     StatusBar,
