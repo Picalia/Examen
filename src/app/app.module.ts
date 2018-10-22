@@ -10,6 +10,7 @@ import { Disco1Page } from '../pages/disco1/disco1';
 import { ImgPage } from '../pages/img/img';
 import { BioPage } from '../pages/bio/bio';
 import { ResPage } from '../pages/res/res';
+import { ListaPage } from '../pages/lista/lista';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { ResPage } from '../pages/res/res';
     Disco1Page,
     ImgPage,
     BioPage,
-    ResPage
+    ResPage,
+    ListaPage
+    
     
 
   ],
@@ -34,6 +37,7 @@ import { ResPage } from '../pages/res/res';
     ImgPage,
     BioPage,
     ResPage,
+    ListaPage,
   ],
   providers: [
     StatusBar,
